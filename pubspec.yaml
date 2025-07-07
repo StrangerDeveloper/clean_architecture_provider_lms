@@ -1,0 +1,52 @@
+name: labor_management_system
+description: "A new Flutter project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons:
+  provider:
+  get_it:
+  shared_preferences:
+  equatable:
+  firebase_core:
+  firebase_remote_config:
+  flutter_screenutil:
+  google_fonts:
+  flutter_localizations:
+    sdk: flutter
+  device_info_plus:
+  connectivity_plus:
+  internet_connection_checker:
+  flutter_svg:
+  jailbreak_root_detection:
+  firebase_messaging:
+  geolocator:
+  supabase_flutter:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^6.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/translations/
+
+    - assets/icons/pngs/others/
+    - assets/icons/pngs/dark/
+    - assets/icons/pngs/light/
+    - assets/icons/svgs/others/
+    - assets/icons/svgs/dark/
+    - assets/icons/svgs/light/
