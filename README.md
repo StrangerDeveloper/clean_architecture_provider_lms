@@ -1,4 +1,4 @@
-# labor_management_system
+# Clean Architecture with Provider Project
 
 A new Flutter project.
 
